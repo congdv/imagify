@@ -1,7 +1,7 @@
 ## Setting up development environment 🛠
 - Install [postgreSQL](https://www.postgresql.org/) if you don't have it already and create a database named `imagify_development`.
 - `git clone git@github.com:congdv/imagify.git`
-- Create an empty `.env` by copying `/api/.env.example` contents into it, and fill in your database username and password.
+- Create an empty `.env` by copying `.env.example` contents into it, and fill in your database username and password.
 - `yarn && yarn start`
 - App should now be running on `http://localhost:6004/`
 
